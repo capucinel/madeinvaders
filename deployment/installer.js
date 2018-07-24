@@ -19,7 +19,7 @@ case 'linux':
 		} else {
 			options.arch = argv.arch || 'amd64';
 		}
-		options.bin = 'Space Invader';
+		options.bin = 'Mehd\'Invader';
 
 		console.log(options);
 		debInstaller(options, (err) => {
