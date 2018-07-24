@@ -19,7 +19,7 @@ game.Entities.Weapons.Trident = me.Entity.extend({
 				if (!splitFire) { // Do not draw if splitFire
 					const color = renderer.getColor();
 
-					renderer.setColor('#B80015');
+					renderer.setColor('gold');
 					renderer.fillRect(0, 0, this.width, this.height);
 					renderer.setColor('#D90');
 					renderer.fillRect(2, 2, this.width - 5, this.height - 5);
