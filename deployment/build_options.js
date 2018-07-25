@@ -5,7 +5,7 @@ module.exports = {
 	appCopyright: 'Francisco Knebel',
 	electronVersion: '1.8.4',
 	// icon: 'icons/appIcon', // .icns for darwin, .ico for win32, .png for linux
-	name: 'Space Invader',
+	name: 'Mehd\'Invader',
 	arch: '', // Allowed values: ia32, x64, armv7l, all
 	platform: '', // Allowed values: linux, win32, darwin, mas, all
 	win32metadata: {

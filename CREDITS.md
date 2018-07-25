@@ -2,7 +2,7 @@
 
 ## Artwork
 
-##### MillionthVector _(http://millionthvector.blogspot.com.br/p/free-sprites.html)_
+##### Valery Chin & Capucine Leclerc(http://millionthvector.blogspot.com.br/p/free-sprites.html)_
 - Player Spaceship
   - F5S3
 - Enemy Spaceship

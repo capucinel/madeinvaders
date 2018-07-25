@@ -3,7 +3,7 @@ game.Title = {
 	version_date: game.constants.version_date,
 
 	draw(renderer, titleFont, versionFont, titleHeight = 50, versionHeight = 130) {
-		titleFont.draw(renderer, 'Space Invader', me.game.viewport.width / 2, titleHeight);
-		versionFont.draw(renderer, `version ${this.version} - ${this.version_date}`, me.game.viewport.width / 2, versionHeight);
+		titleFont.draw(renderer, 'Mehd\'Invader', me.game.viewport.width / 2, titleHeight);
+		versionFont.draw(renderer, `version 0 - 25 juillet 2018`, me.game.viewport.width / 2, versionHeight);
 	}
 };
