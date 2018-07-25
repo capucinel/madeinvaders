@@ -1,0 +1,50 @@
+{
+  "name": "spaceinvader-highscores",
+  "version": "0.0.3",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "lint": "./node_modules/.bin/eslint --ext .js server/",
+    "lint-fix": "npm run lint -- --fix",
+    "prepush": "npm run lint",
+    "start": "node server/index.js",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "husky": "^0.14.3",
+    "nodemon": "^1.15.0"
+  },
+  "description": "Space Invader highscores API.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoKnebel/spaceinvader-highscores.git"
+  },
+  "keywords": [
+    "spaceinvaders",
+    "melonJS"
+  ],
+  "author": "Francisco Knebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranciscoKnebel/spaceinvader-highscores/issues"
+  },
+  "homepage": "https://github.com/FranciscoKnebel/spaceinvader-highscores#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "helmet": "^3.11.0",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.6",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.0",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4"
+  }
+}
