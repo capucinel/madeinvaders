@@ -57,6 +57,7 @@ game.Entities.Player = me.Entity.extend({
 		if (me.input.isKeyPressed('shoot') && game.data.weapons[equiped].ammunition > 0) {
 			game.data.weapons[equiped].ammunition -= 1;
 			this.shoot(equiped);
+			this.reloadEquippedWeapon();
 		}
 
 		if (me.input.isKeyPressed('reload') && game.data.weapons[equiped].ammunition === 0) {

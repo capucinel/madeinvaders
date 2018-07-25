@@ -43,7 +43,7 @@ game.Screens.Help = me.ScreenObject.extend({
 						height += 75;
 						this.commandFont.draw(renderer, 'Touch weapon', 50, height);
 						height += 35;
-						this.descriptionFont.draw(renderer, 'switch weapons', me.game.viewport.width - 50, height);
+						this.descriptionFont.draw(renderer, 's', me.game.viewport.width - 50, height);
 					} else {
 						this.commandFont.draw(renderer, 'A & LEFT', 50, height);
 						this.descriptionFont.draw(renderer, 'move left', me.game.viewport.width - 50, height);
@@ -58,7 +58,7 @@ game.Screens.Help = me.ScreenObject.extend({
 
 						height += 35;
 						this.commandFont.draw(renderer, 'Q & E', 50, height);
-						this.descriptionFont.draw(renderer, 'switch weapons', me.game.viewport.width - 50, height);
+						this.descriptionFont.draw(renderer, 's', me.game.viewport.width - 50, height);
 
 						height += 35;
 						this.commandFont.draw(renderer, 'R', 50, height);
